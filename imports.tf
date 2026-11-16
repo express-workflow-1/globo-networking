@@ -58,9 +58,9 @@ terraform {}
 
 
 import {
-    to = aws_default_vpc.prod-vpc
-    id = "vpc-0aac91ba535060b1c"
-  }
+  to = aws_default_vpc.prod-vpc
+  id = "vpc-0aac91ba535060b1c"
+}
 
 # __generated__ by Terraform
 resource "aws_default_vpc" "prod-vpc" {
@@ -72,13 +72,13 @@ resource "aws_default_vpc" "prod-vpc" {
   #ipv6_ipam_pool_id                    = null
   #ipv6_netmask_length                  = 0
   tags = {
-    Name = "Production-VPC-with-Public-and-Private-Subnets"
-    Company = "Lenovo"
+    Name              = "Production-VPC-with-Public-and-Private-Subnets"
+    Company           = "Lenovo"
     ResourceManagedBy = "Terrafom-IaC"
   }
   tags_all = {
-    Name = "Production-VPC-with-Public-and-Private-Subnets"
-    Company = "Lenovo"
+    Name              = "Production-VPC-with-Public-and-Private-Subnets"
+    Company           = "Lenovo"
     ResourceManagedBy = "Terrafom-IaC"
   }
 }
