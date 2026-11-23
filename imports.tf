@@ -56,11 +56,12 @@ terraform {}
 
 #terraform plan -generate-config-out="generated.tf"
 
-
+/*
 import {
   to = aws_default_vpc.prod-vpc
   id = "vpc-0aac91ba535060b1c"
 }
+*/
 
 # __generated__ by Terraform
 resource "aws_default_vpc" "prod-vpc" {
